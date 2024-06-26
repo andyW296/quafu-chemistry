@@ -6,6 +6,7 @@ quafu-chemistry 是一个基于PyQuafu(http://quafu.baqis.ac.cn/)的VQE算法程
 
 
 所依赖的程序包：
+
 pyquafu
 
 openfermion

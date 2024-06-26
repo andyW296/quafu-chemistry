@@ -22,4 +22,6 @@ pip install XXX
 
 A simple example for the hydrogen molecule (H2) can be found in the folder **example**. 
 
-H2_simulate.ipynb uses simulator of quafu, and H2_quafu.ipynb use real quantum computer via cloud.
+* H2_simulate.ipynb uses simulator of quafu
+
+* H2_quafu.ipynb uses real quantum computer via cloud.

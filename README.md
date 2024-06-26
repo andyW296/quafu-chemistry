@@ -1,24 +1,25 @@
 ## quafu-chemistry
 
-quafu-chemistry is a VQE program base on PyQuafu(http://quafu.baqis.ac.cn/) to calculate ground energy and ground state of atom and molecule.
+**quafu-chemistry** is a simple VQE program based on PyQuafu (https://github.com/ScQ-Cloud/pyquafu) and Quafu quantum cloud computing cluster (http://quafu.baqis.ac.cn/) to compute the ground state of molecules.
 
+## Libraries Dependency
 
-## Libraries required
+* pyquafu
 
-pyquafu
+* openfermion
 
-openfermion
+* pyscf
 
-pyscf
+* openfermionpyscf
 
-openfermionpyscf
+All the libraries can be install with:
 
-all the libraries can be install with:
-
-`pip install XXX`
+```bash
+pip install XXX
+```
 
 ## Examples
-We use H2 as example in the folder of **example**. 
 
-H2_simulate.ipynb use simulator of quafu, and H2_quafu.ipynb use real quantum compute in quafu.
+A simple example for the hydrogen molecule (H2) can be found in the folder **example**. 
 
+H2_simulate.ipynb uses simulator of quafu, and H2_quafu.ipynb use real quantum computer via cloud.

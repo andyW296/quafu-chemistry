@@ -1,11 +1,9 @@
-# quafu-chemistry
-VQE program based on PyQuafu
+## quafu-chemistry
+
+quafu-chemistry is a VQE program base on PyQuafu(http://quafu.baqis.ac.cn/) to calculate ground energy and ground state of atom and molecule.
 
 
-quafu-chemistry 是一个基于PyQuafu(http://quafu.baqis.ac.cn/)的VQE算法程序
-
-
-所依赖的程序包：
+## Libraries required
 
 pyquafu
 
@@ -15,6 +13,10 @@ pyscf
 
 openfermionpyscf
 
-这些程序包可以直接通过 pip install XXX 进行安装
+all the libraries can be install with:
 
-使用示例可以在example中找到
+pip install XXX 
+
+## Examples
+We use H2 as example in the folder of **example**. 
+

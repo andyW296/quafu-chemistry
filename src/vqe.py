@@ -13,7 +13,7 @@ from quafu import simulate
 def submit(qc, token_ip, shots=10000):
     user = User()
     user.save_apitoken(token_ip)
-    backend = 'ScQ-P18'
+    backend = 'Dongling'
     shots = shots
     task = Task()
     task.config(backend=backend, shots=shots, compile=True)
